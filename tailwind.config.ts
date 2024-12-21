@@ -11,7 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+        bear: "#A37A5C",
+        bearHover: "#836149"
+      }
     },
   },
   plugins: [],
