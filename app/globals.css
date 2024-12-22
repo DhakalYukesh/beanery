@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .web-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .active {
+    @apply text-bear relative;
+  }
+
+  .active::after {
+    @apply content-[''] absolute top-[120%] left-1/2 w-1/2 h-0.5 bg-bear -translate-x-1/2;
+  }
+}
