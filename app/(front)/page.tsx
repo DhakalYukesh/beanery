@@ -1,7 +1,7 @@
+import Landing from "@/components/landing/Landing"
+
 const page = () => {
-  return (
-    <div>page</div>
-  )
+  return <Landing />
 }
 
 export default page
